@@ -99,34 +99,6 @@ function vote(value)
 
 showVoteOptions()
 
-        // async function getDogImage() {
-        //     // const breedName = document.getElementById('breedInput').value.trim();
-        //     // if (!breedName) return;
-
-        //     try {
-        //         const response = await fetch(apiUrl);
-        //         const data = await response.json();
-                
-        //         // const imageUrl = data[0].url;
-        //         const breed = data[0].breeds.name;
-        //         console.log(breed)
-                
-        //         // document.getElementById('dogImage').src = imageUrl;
-        //         // document.getElementById('dogBreed').textContent = `Breed: ${breed}`;
-
-        //         newItem += `
-        //         <div>
-        //         <img>
-        //         </div>
-        //         `
-            
-        //     } catch (error) {
-        //         console.error('Error fetching dog image:', error);
-        //     }
-        // }
-        // getDogImage()
-
-
         getDogImage()
         function petDog() {
             alert("You pet this Cat! 🐾");
