@@ -3,20 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pet a Dog!</title>
+    <title>Pet a cat!</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
     <div class="container">
-        <h1>Pet a Dog!</h1>
+        <h1>welcome to Abdoul's website</h1>
+
         <input type="text" id="breedInput" placeholder="Enter breed name">
-        <button onclick="getDogImage()">Get Dog</button>
+        <button onclick="getDogImage()">Get Cat</button>
         <div class="dog-image-container">
-            <img id="dogImage" src="" alt="Dog Image">
+    <img src="https://t4.ftcdn.net/jpg/02/66/72/41/360_F_266724172_Iy8gdKgMa7XmrhYYxLCxyhx6J7070Pr8.jpg" alt="">
             <p id="dogBreed"></p>
         </div>
-        <button onclick="petDog()">Pet the Dog</button>
+        <button onclick="petDog()">Pet the Cat</button>
         <script src="app.js"></script>
     </div>
+    <div id="vote-options" class="vote-options">
+        <button onClick="vote(1)">Vote Up </button>
+        <button onClick="vote(-1)">Vote Down </button>
+        <button onClick="showHistoricVotes()">History </button>
+          
+      <div>
+        <img id="image-to-vote-on" class="col-lg"></img>
+        </div>
+        
+        </div>
+      
+        <div id="vote-results"  class="vote-results">
+        <button onClick="showVoteOptions()">Show Vote Options</button>
+          <div id="grid" class="imgrid">
+       </div>
 </body>
 </html>
