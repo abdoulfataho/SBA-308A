@@ -16,5 +16,10 @@ const apiUrl = "https://api.thedogapi.com/v1/"
                 console.error('Error fetching dog image:', error);
             }
         }
+        function petDog() {
+            alert("You pet the dog! 🐾");
+           
+        }
+  
 
        
