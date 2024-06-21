@@ -1,7 +1,6 @@
-const apiKey = "live_p1tux0UtLsHaPmaXDoPemRfX9xM3FmfJ5xmo7QllBq7cokQR6tigxdBjF4Yylexv"
-const apiUrl = "https://api.thedogapi.com/v2/"
+
 const API_URL = `https://api.thecatapi.com/v1/`;
-const API_KEY = "DEMO-API-KEY";
+const API_KEY = "live_p1tux0UtLsHaPmaXDoPemRfX9xM3FmfJ5xmo7QllBq7cokQR6tigxdBjF4Yylexv"
  
 let currentImageToVoteOn;
  
