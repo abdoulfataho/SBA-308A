@@ -98,3 +98,8 @@ function vote(value)
 }
  
 showVoteOptions()
+function petDog() {
+  alert("You pet the dog! 🐾");
+
+}
+petDog()
